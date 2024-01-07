@@ -1,14 +1,11 @@
-
+* {
+  box-sizing: border-box;
+}
 
 
 header{
-  position: absolute;
-  height: 62px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
   background-color: #093931;
-  width: 1440px
+
 }
 
 h1{
@@ -32,12 +29,23 @@ h1{
 
 main{
   background-color: #093931;
-  width: 1440px;
-  height: 821px;
-  display: inline-block;
-  flex-flow:row;
-  align-content: flex-start;
+  background-image: url(./assets/olas_\ blancas.png);
+  position: absolute;
 }
+
+#first{
+  width: 50%;
+  float: left;
+  padding: 150px;
+
+}
+
+#second{
+width: 50%;
+float: left;
+padding: 45px;
+}
+
 
 main p{
 font-family: Cormorant Garamond;
@@ -65,11 +73,12 @@ main button{
   width: 241px;
   height: 321px;
   top: 250px;
+  bottom: 250px;
   left: 1051px;
+  right: 148px;
   border-radius: 121px, 121px, 0px, 0px;
-  flex-direction: row;
-  flex-flow: end;
-  align-content: end;
+  flex-shrink: 0;
+  box-shadow: 0px 8px 17px 0px rgba(23, 26, 31, 0.15), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
 } 
 
 .main img{
@@ -77,19 +86,20 @@ main button{
   height: 543px;
   top: 139px;
   left: 741px;
+  right: 292px;
+  bottom: 139px;
   border-radius: 8px;
-  display: inline;
-  align-content: flex-end;
+  flex-shrink: 0;
 }
 
 .iconos{
+  background: #FFFFFF;
+  margin-top: 845px;
+  margin-bottom: 3506px;
+  display: flex;
+  justify-content: center;
   width: 1440px;
   height: 232px;
-  top: 845px;
-  background: #FFFFFF;
-  display:inline-block;
-  flex-flow:row;
-  align-content: flex-start;
 }
 
 img[src="./assets/Delivery time 1.png"]{
@@ -97,6 +107,8 @@ img[src="./assets/Delivery time 1.png"]{
   height: 62px;
   top: 36px;
   left: 287px;
+  right: 1091px;
+  bottom: 134px;
 }
 
 img[src="./assets/Love message 1.png"]{
@@ -104,6 +116,8 @@ img[src="./assets/Love message 1.png"]{
   height: 62px;
   top: 36px;
   left: 690px;
+  right: 688px;
+  bottom: 134px;
 }
 
 img[src="./assets/Lock landscape 1.png"]{
@@ -113,7 +127,7 @@ img[src="./assets/Lock landscape 1.png"]{
   left: 1093px;
 }
 
-.tittle1{
+.tittle1 p{
   width: 70px;
   height: 28px;
   top: 116px;
@@ -171,13 +185,12 @@ img[src="./assets/Lock landscape 1.png"]{
 }
 
 .featured{
-  width: 1440px;
-  height: 506px;
-  top: 1101px;
   background: #FFFFFF;
-  display: list-item inline;
-  flex-flow:row;
-  align-content: flex-start;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
 }
 
 h2{
@@ -228,7 +241,6 @@ h2{
   border-radius: 8px;
   box-shadow: 0px 0px 1px 0px #171A1F12;
   box-shadow: 0px 0px 2px 0px #171A1F1F;
-  flex-flow: row;
 }
 
 .image2{
@@ -255,9 +267,11 @@ h2{
   width: 1440px;
   height: 1082px;
   top: 1607px;
-  display: inline-block;
-  flex-flow:row;
-  align-content: flex-start;
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
 }
 
 .collections p{
@@ -299,8 +313,82 @@ h2{
 
 .our-customers{
   background-color: #093931;
+  display: flex;
+}
+
+#from-people{
+  width: 50%;
+  float: left;
+}
+
+#experiences{
+  width: 50%;
+  float: left;
+}
+
+#experiences > p{
+width: 324px;
+color: #FFF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
 
 footer{
   background-color: #093931;
+}
+
+h4{
+  width: 311px;
+  height: 68px;
+  top: 169px;
+  left: 132px;
+  color: #FFFFFF;
+  font-family: Cormorant Garamond;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+l etter-spacing: 0em;
+  text-align: left;
+}
+
+.our-customers p{
+  width: 264px;
+  height: 104px;
+  top: 249px;
+  left: 132px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
+
+}
+
+footer p{
+  width: 95px;
+  height: 46px;
+  top: 48px;
+  left: 132px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F5D38E;
+}
+
+.navegation-footer{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
 }
