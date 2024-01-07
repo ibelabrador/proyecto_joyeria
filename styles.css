@@ -1,0 +1,306 @@
+
+
+
+header{
+  position: absolute;
+  height: 62px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: #093931;
+  width: 1440px
+}
+
+h1{
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F5D38E;
+}
+
+.navegation{
+  position: absolute;
+  width: 431px;
+  height: 43px;
+  right: 218px;
+  top: 10px;
+  left: 791px;
+}
+
+main{
+  background-color: #093931;
+  width: 1440px;
+  height: 821px;
+  display: inline-block;
+  flex-flow:row;
+  align-content: flex-start;
+}
+
+main p{
+font-family: Cormorant Garamond;
+font-size: 72px;
+font-weight: 400;
+line-height: 94px;
+letter-spacing: 0em;
+text-align: left;
+color: #F5D38E;
+}
+
+main button{
+  width: 200px;
+  height: 52px;
+  top: 538px;
+  left: 132px;
+  padding: 12px, 59px, 12px, 59px;
+  border-radius: 26px;
+  border: 1px solid #FFFFFF;
+  background: #093931;
+  color:#FFFFFF;
+}
+
+.main video{
+  width: 241px;
+  height: 321px;
+  top: 250px;
+  left: 1051px;
+  border-radius: 121px, 121px, 0px, 0px;
+  flex-direction: row;
+  flex-flow: end;
+  align-content: end;
+} 
+
+.main img{
+  width: 407px;
+  height: 543px;
+  top: 139px;
+  left: 741px;
+  border-radius: 8px;
+  display: inline;
+  align-content: flex-end;
+}
+
+.iconos{
+  width: 1440px;
+  height: 232px;
+  top: 845px;
+  background: #FFFFFF;
+  display:inline-block;
+  flex-flow:row;
+  align-content: flex-start;
+}
+
+img[src="./assets/Delivery time 1.png"]{
+  width: 62px;
+  height: 62px;
+  top: 36px;
+  left: 287px;
+}
+
+img[src="./assets/Love message 1.png"]{
+  width: 62px;
+  height: 62px;
+  top: 36px;
+  left: 690px;
+}
+
+img[src="./assets/Lock landscape 1.png"]{
+  width: 62px;
+  height: 62px;
+  top: 36px;
+  left: 1093px;
+}
+
+.tittle1{
+  width: 70px;
+  height: 28px;
+  top: 116px;
+  left: 284px;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #171A1F;  
+}
+
+.tittle2{
+  width: 120px;
+  height: 28px;
+  top: 116px;
+  left: 662px;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #171A1F;  
+}
+
+.tittle3{
+  width: 143px;
+  height: 28px;
+  top: 116px;
+  left: 1054px;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #171A1F;  
+}
+
+.iconos p{
+  width: 276px;
+  height: 52px;
+  top: 144px;
+  left: 180px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9095A0;
+  
+}
+
+.featured{
+  width: 1440px;
+  height: 506px;
+  top: 1101px;
+  background: #FFFFFF;
+  display: list-item inline;
+  flex-flow:row;
+  align-content: flex-start;
+}
+
+h2{
+  width: 264px;
+  height: 112px;
+  top: 54px;
+  left: 132px;
+  font-family: Cormorant Garamond;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0D554A;
+}
+
+.featured p{
+  width: 264px;
+  height: 78px;
+  top: 178px;
+  left: 132px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9095A0;
+}
+
+.featured button{
+  width: 200px;
+  height: 52px;
+  top: 280px;
+  left: 132px;
+  padding: 12px, 59px, 12px, 59px;
+  border-radius: 26px;
+  border: 1px;
+  background: #FFFFFF;
+  border: 1px solid #0D554A;
+}
+
+.image1{
+  width: 276px;
+  height: 410px;
+  top: 48px;
+  left: 444px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px #171A1F12;
+  box-shadow: 0px 0px 2px 0px #171A1F1F;
+  flex-flow: row;
+}
+
+.image2{
+  width: 276px;
+  height: 410px;
+  top: 48px;
+  left: 744px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px #171A1F12;
+  box-shadow: 0px 0px 2px 0px #171A1F1F;
+}
+
+.image{
+  width: 276px;
+  height: 410px;
+  top: 48px;
+  left: 1044px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px #171A1F12;
+  box-shadow: 0px 0px 2px 0px #171A1F1F;
+}
+
+.collections{
+  width: 1440px;
+  height: 1082px;
+  top: 1607px;
+  display: inline-block;
+  flex-flow:row;
+  align-content: flex-start;
+}
+
+.collections p{
+  width: 255px;
+  height: 56px;
+  top: 48px;
+  left: 579px;
+  font-family: Cormorant Garamond;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0D554A;
+}
+
+.collections button{
+  width: 200px;
+  height: 52px;
+  top: 982px;
+  left: 620px;
+  padding: 12px, 59px, 12px, 59px;
+  border-radius: 26px;
+  border: 1px;
+  background: #FFFFFF;
+  border: 1px solid #0D554A;
+
+}
+
+#product1{
+  width: 360px;
+  height: 360px;
+  top: 186px;
+  left: 132px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 0px #171A1F12;
+  box-shadow: 0px 0px 2px 0px #171A1F1F;
+}
+
+.our-customers{
+  background-color: #093931;
+}
+
+footer{
+  background-color: #093931;
+}
