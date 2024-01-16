@@ -1,46 +1,3 @@
-body {
-  margin: 0;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #093931;
-  padding: 0.5rem 6.9rem;
-}
-
-.title {
-  font-family: "Cormorant Garamond", serif;
-}
-
-.text {
-  font-family: "Manrope", sans-serif;
-}
-
-.site-title {
-  color: #f5d38e;
-  font-size: 1.9rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav a {
-  color: #ffff;
-  padding: 0.7rem;
-}
-
-.active {
-  color: #f5d38e;
-  border-bottom: solid #f5d38e;
-  border-radius: 0.12rem;
-}
-
-nav a:hover {
-  color: #f5d38e;
-}
 
 .main {
   display: flex;
@@ -170,7 +127,7 @@ nav a:hover {
   font-size: 1rem;
 }
 
-.collections {
+.collections { 
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -231,163 +188,162 @@ nav a:hover {
 
 .our-customers {
   display: flex;
+  justify-content: space-around;
   background: #093931;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2.5rem;
+  padding: 2rem;
 }
 
-#people {
-  display: flex;
-  flex-direction: column;
+.customers-block {
+  padding: 8rem;
+}
+
+.customers-block p {
   color: #fff;
-  padding-left: 10rem;
 }
 
-#people span {
-  font-size: 3.5rem;
-  font-weight: 1000;
+.customers-title {
+  font-size: 4rem;
+  font-weight: 600;
 }
 
-#people p {
-  font-size: 1rem;
-  padding-right: 20rem;
-  margin-right: 2rem;
+.customers-text p {
+  width: 350px;
 }
 
-#experiences {
-  display: flex;
-  border-radius: 0.5rem;
-  background: rgba(23, 26, 31, 0.3);
-  margin: 5rem;
-}
-
-#face {
+.customers-image img {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
-#text-experiences {
+.customers-block-2 {
+  display: flex;
   color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 2rem;
-  width: 25rem;
-}
-
-#name {
-  font-weight: 900;
-  font-size: 1.25rem;
-  color: #fff;
-  margin-left: 2rem;
-  margin-bottom: 0;
-}
-
-#country {
-  font-size: 1.25rem;
-  color: #fff;
-  margin-left: 2rem;
-  margin-top: 0rem;
-}
-
-#icono-play-1 {
-  margin-left: -16rem;
-  margin-top: 24rem;
-}
-
-#icono-play-2 {
-  margin-left: -11rem;
-  margin-top: 24rem;
-}
-
-.subscribe {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #093931;
-  padding: 0.5rem 6.9rem;
-}
-
-.navegation-footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.subscribe nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.suscription{
-  display: flex;
-  flex-direction: column;
+  padding-right: 10rem;
+  padding-top: 4rem;
   margin-right: 8rem;
 }
 
-#suscription-title {
-  color: #fff;
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+.customers-text-image {
+  background: rgba(23, 26, 31, 0.3);
+  width: 31.25rem;
+  height: 20.6rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem; 
+  padding-top: 3rem;
 }
 
-#suscription-text {
-  color: #fff;
-  font-weight: 400;
-  font-size: 1rem;
+#name {
+  font-size: 1.2rem;
+  font-weight: 1000;
+  margin-bottom: 0.2rem;
 }
 
-input {
+#country {
+  margin-top: 0rem;
+}
+
+.play-customers {
   display: flex;
-  flex-direction: column;
-  border-radius: 1.1rem 0 0 1.1rem;
-  border: 1px solid #fff;
-  background: rgba(0, 0, 0, 0);
-  padding: 0.5rem 8.2rem 0.3rem 0rem;
-}
-
-.input svg{
-  position: absolute;
-  margin-left: 0.9rem;
-  margin-top: -1.5rem;
-}
-
-label{
-  color: #fff;
-  margin-left: 2.2rem;
-  margin-top: -1.8rem;
-  position: absolute;
-}
-
-.suscription button {
-  position: absolute;
-  border-radius: 0 1.1rem 1.1rem 0;
-  background: #f2c66d;
-  margin-left: 19rem;
-  margin-top: -1.9rem;
-  padding: 0.24rem 1rem 0.24rem 1rem; 
-  color: #6B4A09;
-}
-
-footer{
-  display: flex;
-  justify-content: space-between;
-  background: #093931;
-  align-items: center;
-  padding: 0.5rem 6.9rem;
-}
-
-footer span{
-  color: #fff;
-  margin-left: 8rem;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.iconos-footer{
+  gap: 1rem;
+  margin-top: 26rem;
   padding-right: 10rem;
+  margin-left: -30rem;
 }
 
-footer a{
-  padding: 0.5rem;
+
+
+
+
+
+@media only screen and (max-width: 540px) {
+  header nav a {
+    display: none;
+  }
+
+  .header__mobilenav {
+    display: block;
+  }
+
+  .header__mobilenav img {
+    width: 2.5rem;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .main-text {
+    max-width: 30vw;
+  }
+
+  .main-image img {
+    max-width: 60vw;
+  }
+
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-selection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image {
+    width: 7rem;
+  }
+
+  .images img {
+    width: 7rem;
+    gap: 0.1rem;
+  }
+
+  .shop-selection {
+    min-width: 60vw;
+    padding-bottom: 1rem;
+  }
+
+  .story img {
+    max-width: 90vw;
+  }
+
+  #video-button {
+    margin-top: -5.5rem;
+  }
+
+  .our-customers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customers-block-2 {
+    flex-direction: column;
+    max-width: 20vw;
+  }
+
+  .customers-text-image {
+    max-width: 40vw;
+  }
+
+  .play-customers {
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+  }
+  
+  .suscription {
+    margin-left: -29rem;
+    margin-top: 20rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .iconos-footer {
+    display: flex;
+  }
 }
