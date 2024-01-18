@@ -1,0 +1,138 @@
+.active {
+  color: #f5d38e;
+  border-bottom: solid #f5d38e;
+  border-radius: 0.12rem;
+}
+
+.navegation-main {
+  margin-bottom: 2rem;
+  margin-top: 6rem;
+}
+
+.navegation-main a {
+  color: #0d554a;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  height: 50rem;
+}
+
+.galery {
+  display: flex;
+}
+
+.galery-little {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+}
+
+.icon-heart {
+  display: flex;
+  margin-top: -39rem;
+  margin-left: 27rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin-left: -7rem;
+}
+
+.title-information {
+  color: #0d554a;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 0rem;
+}
+
+.code {
+  margin-top: -3rem;
+  color: #323842;
+}
+
+.price {
+  color: #b37d10;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0rem;
+}
+
+.color {
+  color: #424955;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.option-color {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.ask {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ask p {
+  color: #424955;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+.ask span {
+  margin: 1rem;
+}
+
+.number-size a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #565e6c;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  border: 0.1rem solid #565e6c;
+  background: #fff;
+  margin: 0.2rem;
+}
+
+.active-size {
+  border: 4rem solid #8f640c;
+}
+
+.quantity {
+  color: #424955;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  margin-top: 2rem;
+}
+
+.quantity span {
+  color: #565e6c;
+  border-radius: 4px;
+  background: #f3f4f6;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.button{
+display: flex;
+justify-content: space-around;
+}
+
+.button-add{
+  color: #0D554A;
+font-size: 1.1rem;
+font-weight: 400;
+line-height: 1.5rem;
+  border-radius: 2rem;
+border: 0.1rem solid #0D554A;
+background: #FFF;
+}
