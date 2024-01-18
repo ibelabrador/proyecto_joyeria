@@ -38,12 +38,6 @@ nav a {
   display: none;
 }
 
-.active {
-  color: #f5d38e;
-  border-bottom: solid #f5d38e;
-  border-radius: 0.12rem;
-}
-
 nav a:hover {
   color: #f5d38e;
 }
@@ -138,4 +132,31 @@ footer span {
 
 footer a {
   padding: 0.5rem;
+}
+
+@media only screen and (max-width: 540px) {
+  header nav a {
+    display: none;
+  }
+
+  .header__mobilenav {
+    display: block;
+  }
+
+  .header__mobilenav img {
+    width: 2.5rem;
+  }
+
+  .suscription {
+    margin-left: -29rem;
+    margin-top: 20rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .iconos-footer {
+    display: flex;
+  }
 }
